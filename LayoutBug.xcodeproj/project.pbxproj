@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03C95E00592FF938C1DB8009 /* libPods-LayoutBug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD437968C3F2A4AAD85A08B /* libPods-LayoutBug.a */; };
 		1A7482561A63FD67006F7FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7482551A63FD67006F7FAA /* main.m */; };
 		1A7482591A63FD67006F7FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7482581A63FD67006F7FAA /* AppDelegate.m */; };
 		1A74825C1A63FD67006F7FAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A74825B1A63FD67006F7FAA /* ViewController.m */; };
-		1A74825F1A63FD67006F7FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A74825D1A63FD67006F7FAA /* Main.storyboard */; };
 		1A7482611A63FD67006F7FAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7482601A63FD67006F7FAA /* Images.xcassets */; };
-		1A7482641A63FD67006F7FAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7482621A63FD67006F7FAA /* LaunchScreen.xib */; };
 		1A7482701A63FD67006F7FAA /* LayoutBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A74826F1A63FD67006F7FAA /* LayoutBugTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C7063E9C5519A3FCAD46CC2 /* Pods-LayoutBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayoutBug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LayoutBug/Pods-LayoutBug.debug.xcconfig"; sourceTree = "<group>"; };
 		1A7482501A63FD67006F7FAA /* LayoutBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7482541A63FD67006F7FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A7482551A63FD67006F7FAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +34,12 @@
 		1A7482581A63FD67006F7FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1A74825A1A63FD67006F7FAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1A74825B1A63FD67006F7FAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1A74825E1A63FD67006F7FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A7482601A63FD67006F7FAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1A7482631A63FD67006F7FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A7482691A63FD67006F7FAA /* LayoutBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A74826E1A63FD67006F7FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A74826F1A63FD67006F7FAA /* LayoutBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutBugTests.m; sourceTree = "<group>"; };
+		4FD437968C3F2A4AAD85A08B /* libPods-LayoutBug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LayoutBug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88578761C135D2A36B1326A9 /* Pods-LayoutBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayoutBug.release.xcconfig"; path = "Pods/Target Support Files/Pods-LayoutBug/Pods-LayoutBug.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C95E00592FF938C1DB8009 /* libPods-LayoutBug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +67,8 @@
 				1A7482521A63FD67006F7FAA /* LayoutBug */,
 				1A74826C1A63FD67006F7FAA /* LayoutBugTests */,
 				1A7482511A63FD67006F7FAA /* Products */,
+				D3DE571DD6B9EFE7666A45AF /* Pods */,
+				3CF1FE625EDA072ED38906D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +88,7 @@
 				1A7482581A63FD67006F7FAA /* AppDelegate.m */,
 				1A74825A1A63FD67006F7FAA /* ViewController.h */,
 				1A74825B1A63FD67006F7FAA /* ViewController.m */,
-				1A74825D1A63FD67006F7FAA /* Main.storyboard */,
 				1A7482601A63FD67006F7FAA /* Images.xcassets */,
-				1A7482621A63FD67006F7FAA /* LaunchScreen.xib */,
 				1A7482531A63FD67006F7FAA /* Supporting Files */,
 			);
 			path = LayoutBug;
@@ -119,6 +120,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3CF1FE625EDA072ED38906D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FD437968C3F2A4AAD85A08B /* libPods-LayoutBug.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3DE571DD6B9EFE7666A45AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C7063E9C5519A3FCAD46CC2 /* Pods-LayoutBug.debug.xcconfig */,
+				88578761C135D2A36B1326A9 /* Pods-LayoutBug.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A7482731A63FD67006F7FAA /* Build configuration list for PBXNativeTarget "LayoutBug" */;
 			buildPhases = (
+				9C0AD49EB4BB865C3C8BDEF2 /* Check Pods Manifest.lock */,
 				1A74824C1A63FD67006F7FAA /* Sources */,
 				1A74824D1A63FD67006F7FAA /* Frameworks */,
 				1A74824E1A63FD67006F7FAA /* Resources */,
+				50A80B3B132129991137FE2C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A74825F1A63FD67006F7FAA /* Main.storyboard in Resources */,
-				1A7482641A63FD67006F7FAA /* LaunchScreen.xib in Resources */,
 				1A7482611A63FD67006F7FAA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +231,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50A80B3B132129991137FE2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LayoutBug/Pods-LayoutBug-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C0AD49EB4BB865C3C8BDEF2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A74824C1A63FD67006F7FAA /* Sources */ = {
@@ -242,25 +293,6 @@
 			targetProxy = 1A74826A1A63FD67006F7FAA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1A74825D1A63FD67006F7FAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A74825E1A63FD67006F7FAA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1A7482621A63FD67006F7FAA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A7482631A63FD67006F7FAA /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1A7482711A63FD67006F7FAA /* Debug */ = {
@@ -343,6 +375,7 @@
 		};
 		1A7482741A63FD67006F7FAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7063E9C5519A3FCAD46CC2 /* Pods-LayoutBug.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LayoutBug/Info.plist;
@@ -353,6 +386,7 @@
 		};
 		1A7482751A63FD67006F7FAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88578761C135D2A36B1326A9 /* Pods-LayoutBug.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LayoutBug/Info.plist;
@@ -414,6 +448,7 @@
 				1A7482751A63FD67006F7FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A7482761A63FD67006F7FAA /* Build configuration list for PBXNativeTarget "LayoutBugTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +457,7 @@
 				1A7482781A63FD67006F7FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

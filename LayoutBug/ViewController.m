@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <JVFloatLabeledTextField/JVFloatLabeledTextField.h>
 
 @interface ViewController ()
 
@@ -16,7 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    JVFloatLabeledTextField *field = [[JVFloatLabeledTextField alloc] init];
+    [field setPlaceholder:@"foo" floatingTitle:@"bar"];
+    field.translatesAutoresizingMaskIntoConstraints = NO;
+    
+    [self.view addSubview:field];
+    
+    id top = self.topLayoutGuide;
+    NSDictionary *views = NSDictionaryOfVariableBindings(field, top);
+
+    for(NSString *constraint in @[@"H:|[field]|",
+                                  @"V:[top][field]"]) {
+        [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:constraint
+                                                                          options:0
+                                                                          metrics:nil
+                                                                            views:views]];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
